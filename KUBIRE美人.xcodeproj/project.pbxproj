@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8703033D191611B3006D4918 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8703033C191611B3006D4918 /* Social.framework */; };
+		8703033F191714B4006D4918 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8703033E191714B4006D4918 /* AVFoundation.framework */; };
+		8703EEA8199DA3C600BB61C7 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8703EEA7199DA3C600BB61C7 /* TopViewController.m */; };
+		8703EEA9199DA3C600BB61C7 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8703EEA7199DA3C600BB61C7 /* TopViewController.m */; };
+		87332D9F19AC13440096FCE8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87332D9E19AC13440096FCE8 /* ImageIO.framework */; };
+		87332DA219AC19B70096FCE8 /* ALAssetsLibrary+PhotoLibraryUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 87332DA119AC19B70096FCE8 /* ALAssetsLibrary+PhotoLibraryUtility.m */; };
+		87332DB919B0B4C50096FCE8 /* SetumeiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87332DB819B0B4C50096FCE8 /* SetumeiViewController.m */; };
+		87332DED19C044020096FCE8 /* Setumei2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87332DEC19C044020096FCE8 /* Setumei2ViewController.m */; };
+		87332E0D19C2FC6A0096FCE8 /* aikonn120.png in Resources */ = {isa = PBXBuildFile; fileRef = 87332E0C19C2FC6A0096FCE8 /* aikonn120.png */; };
+		875EAC0319DD801200CD4148 /* Setumei3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875EAC0219DD801200CD4148 /* Setumei3ViewController.m */; };
+		875EAC0619DD806C00CD4148 /* Setumei4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875EAC0519DD806C00CD4148 /* Setumei4ViewController.m */; };
+		875EAC0919DD807F00CD4148 /* Setumei5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875EAC0819DD807F00CD4148 /* Setumei5ViewController.m */; };
+		875EAC0C19DD809A00CD4148 /* Setumei6EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875EAC0B19DD809A00CD4148 /* Setumei6EViewController.m */; };
+		875EAC1019E7E26600CD4148 /* KUBIRE美人rere-su-se4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 875EAC0F19E7E26600CD4148 /* KUBIRE美人rere-su-se4.gif */; };
+		875EAC1219E7E29600CD4148 /* KUBIRE美人rere-su-se2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 875EAC1119E7E29600CD4148 /* KUBIRE美人rere-su-se2.gif */; };
+		875EAC1419E7E2A200CD4148 /* KUBIRE美人rere-su-se3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 875EAC1319E7E2A200CD4148 /* KUBIRE美人rere-su-se3.gif */; };
+		875EAC1619E7E2B400CD4148 /* KUBIRE美人rere-su-se5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 875EAC1519E7E2B400CD4148 /* KUBIRE美人rere-su-se5.gif */; };
+		875EAC1819E7E2C000CD4148 /* KUBIRE美人rere-su-se6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 875EAC1719E7E2C000CD4148 /* KUBIRE美人rere-su-se6.gif */; };
+		875EAC1C19E7E2E800CD4148 /* KUBIRE美人rere-su-re7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 875EAC1B19E7E2E800CD4148 /* KUBIRE美人rere-su-re7.gif */; };
+		875EAC2019E7E77B00CD4148 /* KUBIRE美人rere-su-se0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 875EAC1F19E7E77B00CD4148 /* KUBIRE美人rere-su-se0.gif */; };
+		875EAC2419E7EBBE00CD4148 /* KUBIRE美人rere-su-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 875EAC2319E7EBBE00CD4148 /* KUBIRE美人rere-su-2.gif */; };
+		875EAC2619E7EC0F00CD4148 /* KUBIRE美人rere-su1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 875EAC2519E7EC0F00CD4148 /* KUBIRE美人rere-su1.gif */; };
+		87782FC719AC062700137AB2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87782FC619AC062700137AB2 /* AssetsLibrary.framework */; };
+		8792A0181966CCE8000A50D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8792A0161966CCE8000A50D8 /* Main.storyboard */; };
+		87BA1CE81914AE9900B0814F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BA1CE71914AE9900B0814F /* Foundation.framework */; };
+		87BA1CEA1914AE9900B0814F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BA1CE91914AE9900B0814F /* CoreGraphics.framework */; };
+		87BA1CEC1914AE9900B0814F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BA1CEB1914AE9900B0814F /* UIKit.framework */; };
+		87BA1CF21914AE9900B0814F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87BA1CF01914AE9900B0814F /* InfoPlist.strings */; };
+		87BA1CF41914AE9900B0814F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA1CF31914AE9900B0814F /* main.m */; };
+		87BA1CF81914AE9900B0814F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA1CF71914AE9900B0814F /* AppDelegate.m */; };
+		87BA1CFE1914AE9900B0814F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA1CFD1914AE9900B0814F /* ViewController.m */; };
+		87BA1D001914AE9900B0814F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BA1CFF1914AE9900B0814F /* Images.xcassets */; };
+		87BA1D071914AE9900B0814F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BA1D061914AE9900B0814F /* XCTest.framework */; };
+		87BA1D081914AE9900B0814F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BA1CE71914AE9900B0814F /* Foundation.framework */; };
+		87BA1D091914AE9900B0814F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BA1CEB1914AE9900B0814F /* UIKit.framework */; };
+		87BA1D111914AE9900B0814F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87BA1D0F1914AE9900B0814F /* InfoPlist.strings */; };
+		87BA1D131914AE9900B0814F /* DietTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA1D121914AE9900B0814F /* DietTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87BA1D0A1914AE9900B0814F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87BA1CDC1914AE9900B0814F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87BA1CE31914AE9900B0814F;
+			remoteInfo = Diet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8703033C191611B3006D4918 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8703033E191714B4006D4918 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8703EEA6199DA3C600BB61C7 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		8703EEA7199DA3C600BB61C7 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		87332D9E19AC13440096FCE8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		87332DA019AC199F0096FCE8 /* ALAssetsLibrary+PhotoLibraryUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ALAssetsLibrary+PhotoLibraryUtility.h"; path = "../../../PhotoLibraryUtility-master/SaveFolder/ALAssetsLibrary+PhotoLibraryUtility.h"; sourceTree = "<group>"; };
+		87332DA119AC19B70096FCE8 /* ALAssetsLibrary+PhotoLibraryUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ALAssetsLibrary+PhotoLibraryUtility.m"; path = "../../../PhotoLibraryUtility-master/SaveFolder/ALAssetsLibrary+PhotoLibraryUtility.m"; sourceTree = "<group>"; };
+		87332DB719B0B4C50096FCE8 /* SetumeiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetumeiViewController.h; sourceTree = "<group>"; };
+		87332DB819B0B4C50096FCE8 /* SetumeiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetumeiViewController.m; sourceTree = "<group>"; };
+		87332DEB19C044020096FCE8 /* Setumei2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setumei2ViewController.h; sourceTree = "<group>"; };
+		87332DEC19C044020096FCE8 /* Setumei2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setumei2ViewController.m; sourceTree = "<group>"; };
+		87332E0C19C2FC6A0096FCE8 /* aikonn120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aikonn120.png; sourceTree = "<group>"; };
+		875EAC0119DD801200CD4148 /* Setumei3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setumei3ViewController.h; sourceTree = "<group>"; };
+		875EAC0219DD801200CD4148 /* Setumei3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setumei3ViewController.m; sourceTree = "<group>"; };
+		875EAC0419DD806C00CD4148 /* Setumei4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setumei4ViewController.h; sourceTree = "<group>"; };
+		875EAC0519DD806C00CD4148 /* Setumei4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setumei4ViewController.m; sourceTree = "<group>"; };
+		875EAC0719DD807F00CD4148 /* Setumei5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setumei5ViewController.h; sourceTree = "<group>"; };
+		875EAC0819DD807F00CD4148 /* Setumei5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setumei5ViewController.m; sourceTree = "<group>"; };
+		875EAC0A19DD809A00CD4148 /* Setumei6EViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setumei6EViewController.h; sourceTree = "<group>"; };
+		875EAC0B19DD809A00CD4148 /* Setumei6EViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setumei6EViewController.m; sourceTree = "<group>"; };
+		875EAC0F19E7E26600CD4148 /* KUBIRE美人rere-su-se4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "KUBIRE美人rere-su-se4.gif"; sourceTree = "<group>"; };
+		875EAC1119E7E29600CD4148 /* KUBIRE美人rere-su-se2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "KUBIRE美人rere-su-se2.gif"; sourceTree = "<group>"; };
+		875EAC1319E7E2A200CD4148 /* KUBIRE美人rere-su-se3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "KUBIRE美人rere-su-se3.gif"; sourceTree = "<group>"; };
+		875EAC1519E7E2B400CD4148 /* KUBIRE美人rere-su-se5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "KUBIRE美人rere-su-se5.gif"; sourceTree = "<group>"; };
+		875EAC1719E7E2C000CD4148 /* KUBIRE美人rere-su-se6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "KUBIRE美人rere-su-se6.gif"; sourceTree = "<group>"; };
+		875EAC1B19E7E2E800CD4148 /* KUBIRE美人rere-su-re7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "KUBIRE美人rere-su-re7.gif"; sourceTree = "<group>"; };
+		875EAC1F19E7E77B00CD4148 /* KUBIRE美人rere-su-se0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "KUBIRE美人rere-su-se0.gif"; sourceTree = "<group>"; };
+		875EAC2319E7EBBE00CD4148 /* KUBIRE美人rere-su-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "KUBIRE美人rere-su-2.gif"; sourceTree = "<group>"; };
+		875EAC2519E7EC0F00CD4148 /* KUBIRE美人rere-su1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "KUBIRE美人rere-su1.gif"; sourceTree = "<group>"; };
+		87782FC619AC062700137AB2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		8792A0171966CCE8000A50D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87BA1CE41914AE9900B0814F /* KUBIRE美人.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KUBIRE美人.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BA1CE71914AE9900B0814F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87BA1CE91914AE9900B0814F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87BA1CEB1914AE9900B0814F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87BA1CEF1914AE9900B0814F /* KUBIRE美人-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KUBIRE美人-Info.plist"; sourceTree = "<group>"; };
+		87BA1CF11914AE9900B0814F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87BA1CF31914AE9900B0814F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87BA1CF51914AE9900B0814F /* KUBIRE美人-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KUBIRE美人-Prefix.pch"; sourceTree = "<group>"; };
+		87BA1CF61914AE9900B0814F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87BA1CF71914AE9900B0814F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87BA1CFC1914AE9900B0814F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87BA1CFD1914AE9900B0814F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87BA1CFF1914AE9900B0814F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87BA1D051914AE9900B0814F /* KUBIRE美人Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KUBIRE美人Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BA1D061914AE9900B0814F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		87BA1D0E1914AE9900B0814F /* KUBIRE美人Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KUBIRE美人Tests-Info.plist"; sourceTree = "<group>"; };
+		87BA1D101914AE9900B0814F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87BA1D121914AE9900B0814F /* DietTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DietTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87BA1CE11914AE9900B0814F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87332D9F19AC13440096FCE8 /* ImageIO.framework in Frameworks */,
+				87782FC719AC062700137AB2 /* AssetsLibrary.framework in Frameworks */,
+				8703033F191714B4006D4918 /* AVFoundation.framework in Frameworks */,
+				8703033D191611B3006D4918 /* Social.framework in Frameworks */,
+				87BA1CEA1914AE9900B0814F /* CoreGraphics.framework in Frameworks */,
+				87BA1CEC1914AE9900B0814F /* UIKit.framework in Frameworks */,
+				87BA1CE81914AE9900B0814F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BA1D021914AE9900B0814F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BA1D071914AE9900B0814F /* XCTest.framework in Frameworks */,
+				87BA1D091914AE9900B0814F /* UIKit.framework in Frameworks */,
+				87BA1D081914AE9900B0814F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87332E0B19C2FC440096FCE8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				87332E0C19C2FC6A0096FCE8 /* aikonn120.png */,
+				875EAC2519E7EC0F00CD4148 /* KUBIRE美人rere-su1.gif */,
+				875EAC2319E7EBBE00CD4148 /* KUBIRE美人rere-su-2.gif */,
+				875EAC1F19E7E77B00CD4148 /* KUBIRE美人rere-su-se0.gif */,
+				875EAC1119E7E29600CD4148 /* KUBIRE美人rere-su-se2.gif */,
+				875EAC1319E7E2A200CD4148 /* KUBIRE美人rere-su-se3.gif */,
+				875EAC1B19E7E2E800CD4148 /* KUBIRE美人rere-su-re7.gif */,
+				875EAC0F19E7E26600CD4148 /* KUBIRE美人rere-su-se4.gif */,
+				875EAC1519E7E2B400CD4148 /* KUBIRE美人rere-su-se5.gif */,
+				875EAC1719E7E2C000CD4148 /* KUBIRE美人rere-su-se6.gif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		87BA1CDB1914AE9900B0814F = {
+			isa = PBXGroup;
+			children = (
+				87BA1CED1914AE9900B0814F /* Diet */,
+				87BA1D0C1914AE9900B0814F /* DietTests */,
+				87BA1CE61914AE9900B0814F /* Frameworks */,
+				87BA1CE51914AE9900B0814F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87BA1CE51914AE9900B0814F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87BA1CE41914AE9900B0814F /* KUBIRE美人.app */,
+				87BA1D051914AE9900B0814F /* KUBIRE美人Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87BA1CE61914AE9900B0814F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87332D9E19AC13440096FCE8 /* ImageIO.framework */,
+				87782FC619AC062700137AB2 /* AssetsLibrary.framework */,
+				8703033E191714B4006D4918 /* AVFoundation.framework */,
+				8703033C191611B3006D4918 /* Social.framework */,
+				87BA1CE71914AE9900B0814F /* Foundation.framework */,
+				87BA1CE91914AE9900B0814F /* CoreGraphics.framework */,
+				87BA1CEB1914AE9900B0814F /* UIKit.framework */,
+				87BA1D061914AE9900B0814F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87BA1CED1914AE9900B0814F /* Diet */ = {
+			isa = PBXGroup;
+			children = (
+				87332E0B19C2FC440096FCE8 /* Images */,
+				87332DA019AC199F0096FCE8 /* ALAssetsLibrary+PhotoLibraryUtility.h */,
+				87332DA119AC19B70096FCE8 /* ALAssetsLibrary+PhotoLibraryUtility.m */,
+				87332DB719B0B4C50096FCE8 /* SetumeiViewController.h */,
+				87332DB819B0B4C50096FCE8 /* SetumeiViewController.m */,
+				87332DEB19C044020096FCE8 /* Setumei2ViewController.h */,
+				87332DEC19C044020096FCE8 /* Setumei2ViewController.m */,
+				875EAC0119DD801200CD4148 /* Setumei3ViewController.h */,
+				875EAC0219DD801200CD4148 /* Setumei3ViewController.m */,
+				875EAC0419DD806C00CD4148 /* Setumei4ViewController.h */,
+				875EAC0519DD806C00CD4148 /* Setumei4ViewController.m */,
+				875EAC0719DD807F00CD4148 /* Setumei5ViewController.h */,
+				875EAC0819DD807F00CD4148 /* Setumei5ViewController.m */,
+				875EAC0A19DD809A00CD4148 /* Setumei6EViewController.h */,
+				875EAC0B19DD809A00CD4148 /* Setumei6EViewController.m */,
+				87BA1CF61914AE9900B0814F /* AppDelegate.h */,
+				87BA1CF71914AE9900B0814F /* AppDelegate.m */,
+				8703EEA6199DA3C600BB61C7 /* TopViewController.h */,
+				8703EEA7199DA3C600BB61C7 /* TopViewController.m */,
+				87BA1CFC1914AE9900B0814F /* ViewController.h */,
+				87BA1CFD1914AE9900B0814F /* ViewController.m */,
+				8792A0161966CCE8000A50D8 /* Main.storyboard */,
+				87BA1CFF1914AE9900B0814F /* Images.xcassets */,
+				87BA1CEE1914AE9900B0814F /* Supporting Files */,
+			);
+			path = Diet;
+			sourceTree = "<group>";
+		};
+		87BA1CEE1914AE9900B0814F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87BA1CEF1914AE9900B0814F /* KUBIRE美人-Info.plist */,
+				87BA1CF01914AE9900B0814F /* InfoPlist.strings */,
+				87BA1CF31914AE9900B0814F /* main.m */,
+				87BA1CF51914AE9900B0814F /* KUBIRE美人-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87BA1D0C1914AE9900B0814F /* DietTests */ = {
+			isa = PBXGroup;
+			children = (
+				87BA1D121914AE9900B0814F /* DietTests.m */,
+				87BA1D0D1914AE9900B0814F /* Supporting Files */,
+			);
+			path = DietTests;
+			sourceTree = "<group>";
+		};
+		87BA1D0D1914AE9900B0814F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87BA1D0E1914AE9900B0814F /* KUBIRE美人Tests-Info.plist */,
+				87BA1D0F1914AE9900B0814F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87BA1CE31914AE9900B0814F /* KUBIRE美人 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BA1D161914AE9900B0814F /* Build configuration list for PBXNativeTarget "KUBIRE美人" */;
+			buildPhases = (
+				87BA1CE01914AE9900B0814F /* Sources */,
+				87BA1CE11914AE9900B0814F /* Frameworks */,
+				87BA1CE21914AE9900B0814F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KUBIRE美人";
+			productName = Diet;
+			productReference = 87BA1CE41914AE9900B0814F /* KUBIRE美人.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87BA1D041914AE9900B0814F /* KUBIRE美人Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BA1D191914AE9900B0814F /* Build configuration list for PBXNativeTarget "KUBIRE美人Tests" */;
+			buildPhases = (
+				87BA1D011914AE9900B0814F /* Sources */,
+				87BA1D021914AE9900B0814F /* Frameworks */,
+				87BA1D031914AE9900B0814F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87BA1D0B1914AE9900B0814F /* PBXTargetDependency */,
+			);
+			name = "KUBIRE美人Tests";
+			productName = DietTests;
+			productReference = 87BA1D051914AE9900B0814F /* KUBIRE美人Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87BA1CDC1914AE9900B0814F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "藤浦ゆず";
+				TargetAttributes = {
+					87BA1D041914AE9900B0814F = {
+						TestTargetID = 87BA1CE31914AE9900B0814F;
+					};
+				};
+			};
+			buildConfigurationList = 87BA1CDF1914AE9900B0814F /* Build configuration list for PBXProject "KUBIRE美人" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87BA1CDB1914AE9900B0814F;
+			productRefGroup = 87BA1CE51914AE9900B0814F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87BA1CE31914AE9900B0814F /* KUBIRE美人 */,
+				87BA1D041914AE9900B0814F /* KUBIRE美人Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87BA1CE21914AE9900B0814F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875EAC1419E7E2A200CD4148 /* KUBIRE美人rere-su-se3.gif in Resources */,
+				875EAC2019E7E77B00CD4148 /* KUBIRE美人rere-su-se0.gif in Resources */,
+				875EAC2419E7EBBE00CD4148 /* KUBIRE美人rere-su-2.gif in Resources */,
+				87332E0D19C2FC6A0096FCE8 /* aikonn120.png in Resources */,
+				875EAC1C19E7E2E800CD4148 /* KUBIRE美人rere-su-re7.gif in Resources */,
+				875EAC1219E7E29600CD4148 /* KUBIRE美人rere-su-se2.gif in Resources */,
+				875EAC1019E7E26600CD4148 /* KUBIRE美人rere-su-se4.gif in Resources */,
+				8792A0181966CCE8000A50D8 /* Main.storyboard in Resources */,
+				875EAC1819E7E2C000CD4148 /* KUBIRE美人rere-su-se6.gif in Resources */,
+				87BA1D001914AE9900B0814F /* Images.xcassets in Resources */,
+				875EAC1619E7E2B400CD4148 /* KUBIRE美人rere-su-se5.gif in Resources */,
+				87BA1CF21914AE9900B0814F /* InfoPlist.strings in Resources */,
+				875EAC2619E7EC0F00CD4148 /* KUBIRE美人rere-su1.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BA1D031914AE9900B0814F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BA1D111914AE9900B0814F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87BA1CE01914AE9900B0814F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8703EEA8199DA3C600BB61C7 /* TopViewController.m in Sources */,
+				875EAC0319DD801200CD4148 /* Setumei3ViewController.m in Sources */,
+				87332DED19C044020096FCE8 /* Setumei2ViewController.m in Sources */,
+				87332DB919B0B4C50096FCE8 /* SetumeiViewController.m in Sources */,
+				875EAC0619DD806C00CD4148 /* Setumei4ViewController.m in Sources */,
+				875EAC0919DD807F00CD4148 /* Setumei5ViewController.m in Sources */,
+				87BA1CFE1914AE9900B0814F /* ViewController.m in Sources */,
+				87BA1CF81914AE9900B0814F /* AppDelegate.m in Sources */,
+				87332DA219AC19B70096FCE8 /* ALAssetsLibrary+PhotoLibraryUtility.m in Sources */,
+				87BA1CF41914AE9900B0814F /* main.m in Sources */,
+				875EAC0C19DD809A00CD4148 /* Setumei6EViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BA1D011914AE9900B0814F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8703EEA9199DA3C600BB61C7 /* TopViewController.m in Sources */,
+				87BA1D131914AE9900B0814F /* DietTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87BA1D0B1914AE9900B0814F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87BA1CE31914AE9900B0814F /* KUBIRE美人 */;
+			targetProxy = 87BA1D0A1914AE9900B0814F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8792A0161966CCE8000A50D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8792A0171966CCE8000A50D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87BA1CF01914AE9900B0814F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87BA1CF11914AE9900B0814F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87BA1D0F1914AE9900B0814F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87BA1D101914AE9900B0814F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87BA1D141914AE9900B0814F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "263769d6-5e7e-4570-98a7-2a8477680d89";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87BA1D151914AE9900B0814F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "263769d6-5e7e-4570-98a7-2a8477680d89";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87BA1D171914AE9900B0814F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diet/KUBIRE美人-Prefix.pch";
+				INFOPLIST_FILE = "Diet/KUBIRE美人-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "KUBIRE美人";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87BA1D181914AE9900B0814F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuma oda (LVR95KVF6H)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diet/KUBIRE美人-Prefix.pch";
+				INFOPLIST_FILE = "Diet/KUBIRE美人-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "KUBIRE美人";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87BA1D1A1914AE9900B0814F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Diet.app/Diet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diet/Diet-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DietTests/KUBIRE美人Tests-Info.plist";
+				PRODUCT_NAME = "KUBIRE美人Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87BA1D1B1914AE9900B0814F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Diet.app/Diet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diet/Diet-Prefix.pch";
+				INFOPLIST_FILE = "DietTests/KUBIRE美人Tests-Info.plist";
+				PRODUCT_NAME = "KUBIRE美人Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87BA1CDF1914AE9900B0814F /* Build configuration list for PBXProject "KUBIRE美人" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BA1D141914AE9900B0814F /* Debug */,
+				87BA1D151914AE9900B0814F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BA1D161914AE9900B0814F /* Build configuration list for PBXNativeTarget "KUBIRE美人" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BA1D171914AE9900B0814F /* Debug */,
+				87BA1D181914AE9900B0814F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BA1D191914AE9900B0814F /* Build configuration list for PBXNativeTarget "KUBIRE美人Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BA1D1A1914AE9900B0814F /* Debug */,
+				87BA1D1B1914AE9900B0814F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87BA1CDC1914AE9900B0814F /* Project object */;
+}
