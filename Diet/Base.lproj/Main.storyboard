@@ -122,6 +122,7 @@
         <!--View Controller-->
         <scene sceneID="c5S-SY-ZQy">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ND8-Do-qcm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="u54-7E-79b" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JrO-ix-XdF"/>
@@ -131,15 +132,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KUBIRE美人rere-su-re7.gif" translatesAutoresizingMaskIntoConstraints="NO" id="yJc-Lp-ME0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="くびれまじ７.gif" translatesAutoresizingMaskIntoConstraints="NO" id="yJc-Lp-ME0">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MtF-5C-UQ7">
-                                <rect key="frame" x="184" y="467" width="101" height="30"/>
+                                <rect key="frame" x="156" y="467" width="125" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="次ページへ">
+                                <state key="normal" title="2回目からは→">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -151,7 +152,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ND8-Do-qcm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1216" y="-843"/>
         </scene>
@@ -399,7 +399,6 @@
     </scenes>
     <resources>
         <image name="KUBIRE美人rere-su-2.gif" width="640" height="1136"/>
-        <image name="KUBIRE美人rere-su-re7.gif" width="640" height="1136"/>
         <image name="KUBIRE美人rere-su-se0.gif" width="640" height="1136"/>
         <image name="KUBIRE美人rere-su-se2.gif" width="640" height="1136"/>
         <image name="KUBIRE美人rere-su-se3.gif" width="640" height="1136"/>
@@ -407,6 +406,7 @@
         <image name="KUBIRE美人rere-su-se5.gif" width="640" height="1136"/>
         <image name="KUBIRE美人rere-su-se6.gif" width="640" height="1136"/>
         <image name="KUBIRE美人rere-su1.gif" width="640" height="1136"/>
+        <image name="くびれまじ７.gif" width="640" height="1136"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -414,6 +414,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="tY9-jd-V6i"/>
+        <segue reference="0qG-5j-pWl"/>
     </inferredMetricsTieBreakers>
 </document>

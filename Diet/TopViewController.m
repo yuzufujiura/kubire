@@ -14,6 +14,8 @@
 @interface TopViewController (){
     BOOL cameraFlag;
     AppDelegate *delegate;
+    ALAssetsLibrary *library;
+
 }
 
 @end
@@ -122,9 +124,16 @@
     
     // モーダルで表示
     //UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    // Storyboard ID を指定して画面遷移
+    // Storyboard ID を指定して画面遷
     
-    
+    library = [[ALAssetsLibrary alloc] init];
+    [library saveImageToPhotoLibrary:image groupName:@"KUBIRE美人" completion:^(NSError *error) {
+        if (error) {
+            NSLog(@"失敗 : %@", error);
+        }else {
+            NSLog(@"成功");
+        }
+    }];//画像保存
 
     
 
@@ -140,14 +149,30 @@
     
 }
 
-- (void)saveButtonEvent
-{
-   
-    //画像保存完了時のセレクタ指定
-    SEL selector = @selector(onCompleteCapture:didFinishSavingWithError:contextInfo:);
-    //画像を保存する
-    //UIImageWriteToSavedPhotosAlbum(image, self, selector, NULL);
+-(void)targetImage:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)context{
+    
+    
+    if(error){
+        
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@""
+                                                        message:@"保存できませんでした"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+    }
+    
+    else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@""
+                                                        message:@"保存を完了しました"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+    }
 }
+
+
 
 //画像保存完了時のセレクタ
 - (void)onCompleteCapture:(UIImage *)screenImage

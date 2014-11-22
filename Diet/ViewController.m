@@ -156,7 +156,6 @@
 }
 
 
-
 -(void)imagePickerController:(UIImagePickerController *)picker
         didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo{
     
@@ -199,7 +198,7 @@
 
 
 
--(void)targetImage:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)context{
+/*-(void)targetImage:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)context{
     
     
     if(error){
@@ -220,7 +219,7 @@
                                               otherButtonTitles:nil];
         [alert show];
     }
-}
+}*/
 
 -(void)imagePickerContrrollerDidCancel:(UIImagePickerController *)picker {
     UIViewController *vc = [picker presentingViewController];
