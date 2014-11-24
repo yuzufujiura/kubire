@@ -30,6 +30,7 @@
 		875EAC2619E7EC0F00CD4148 /* KUBIRE美人rere-su1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 875EAC2519E7EC0F00CD4148 /* KUBIRE美人rere-su1.gif */; };
 		876430D81A20647C0004E512 /* kubire_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 876430D71A20647C0004E512 /* kubire_icon.png */; };
 		876430DA1A2072BF0004E512 /* くびれまじ７.gif in Resources */ = {isa = PBXBuildFile; fileRef = 876430D91A2072BF0004E512 /* くびれまじ７.gif */; };
+		876430DC1A2355940004E512 /* wakutate2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 876430DB1A2355940004E512 /* wakutate2.gif */; };
 		87782FC719AC062700137AB2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87782FC619AC062700137AB2 /* AssetsLibrary.framework */; };
 		8792A0181966CCE8000A50D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8792A0161966CCE8000A50D8 /* Main.storyboard */; };
 		87BA1CE81914AE9900B0814F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BA1CE71914AE9900B0814F /* Foundation.framework */; };
@@ -88,6 +89,7 @@
 		875EAC2519E7EC0F00CD4148 /* KUBIRE美人rere-su1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "KUBIRE美人rere-su1.gif"; sourceTree = "<group>"; };
 		876430D71A20647C0004E512 /* kubire_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kubire_icon.png; sourceTree = "<group>"; };
 		876430D91A2072BF0004E512 /* くびれまじ７.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "くびれまじ７.gif"; sourceTree = "<group>"; };
+		876430DB1A2355940004E512 /* wakutate2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wakutate2.gif; sourceTree = "<group>"; };
 		87782FC619AC062700137AB2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		8792A0171966CCE8000A50D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87BA1CE41914AE9900B0814F /* KUBIRE美人.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KUBIRE美人.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +143,7 @@
 		87332E0B19C2FC440096FCE8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				876430DB1A2355940004E512 /* wakutate2.gif */,
 				87332E0C19C2FC6A0096FCE8 /* aikonn120.png */,
 				876430D71A20647C0004E512 /* kubire_icon.png */,
 				875EAC2519E7EC0F00CD4148 /* KUBIRE美人rere-su1.gif */,
@@ -338,6 +341,7 @@
 				875EAC1819E7E2C000CD4148 /* KUBIRE美人rere-su-se6.gif in Resources */,
 				87BA1D001914AE9900B0814F /* Images.xcassets in Resources */,
 				875EAC1619E7E2B400CD4148 /* KUBIRE美人rere-su-se5.gif in Resources */,
+				876430DC1A2355940004E512 /* wakutate2.gif in Resources */,
 				87BA1CF21914AE9900B0814F /* InfoPlist.strings in Resources */,
 				875EAC2619E7EC0F00CD4148 /* KUBIRE美人rere-su1.gif in Resources */,
 			);
